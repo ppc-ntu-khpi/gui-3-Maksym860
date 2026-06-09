@@ -1,0 +1,60 @@
+<svg viewBox="0 0 440 320" width="440" height="320" xmlns="http://www.w3.org/2000/svg" style="font-family:'Segoe UI',Arial,sans-serif;">
+
+  <!-- Тінь вікна -->
+  <rect x="4" y="4" width="436" height="316" rx="8" fill="#bbb" opacity="0.4"/>
+
+  <!-- Фон вікна -->
+  <rect x="0" y="0" width="436" height="316" rx="8" fill="#f4f4f4" stroke="#999" stroke-width="1"/>
+
+  <!-- Заголовок вікна (OS-стиль) -->
+  <rect x="0" y="0" width="436" height="30" rx="8" fill="#3c3c3c"/>
+  <rect x="0" y="16" width="436" height="14" fill="#3c3c3c"/>
+  <circle cx="14" cy="15" r="5.5" fill="#ff5f57"/>
+  <circle cx="32" cy="15" r="5.5" fill="#febc2e"/>
+  <circle cx="50" cy="15" r="5.5" fill="#28c840"/>
+  <text x="218" y="20" text-anchor="middle" fill="white" font-size="12" font-weight="500">MyBank Clients</text>
+
+  <!-- Верхня синя HBox панель -->
+  <rect x="0" y="30" width="436" height="52" fill="#336699"/>
+
+  <!-- ComboBox -->
+  <rect x="12" y="44" width="162" height="24" rx="4" fill="white" stroke="#aaa" stroke-width="1"/>
+  <text x="20" y="61" font-size="12" fill="#333">Simms, Jane</text>
+  <polygon points="158,52 165,52 161.5,60" fill="#666"/>
+
+  <!-- Кнопка Show -->
+  <rect x="184" y="44" width="72" height="24" rx="4" fill="#e8e8e8" stroke="#aaa" stroke-width="1"/>
+  <text x="220" y="61" text-anchor="middle" font-size="12" fill="#222">Show</text>
+
+  <!-- Кнопка Report -->
+  <rect x="266" y="44" width="72" height="24" rx="4" fill="#e8e8e8" stroke="#aaa" stroke-width="1"/>
+  <text x="302" y="61" text-anchor="middle" font-size="12" fill="#222">Report</text>
+
+  <!-- Кнопка ? -->
+  <rect x="396" y="44" width="30" height="25" rx="3.5"
+        fill="url(#helpGrad)" stroke="#D0E6FA" stroke-width="1"/>
+  <defs>
+    <linearGradient id="helpGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#4977A3"/>
+      <stop offset="50%"  stop-color="#B0C6DA"/>
+      <stop offset="100%" stop-color="#9CB6CF"/>
+    </linearGradient>
+  </defs>
+  <text x="411" y="62" text-anchor="middle" font-size="16" font-weight="bold" fill="white" stroke="#7080A0" stroke-width="0.5">?</text>
+
+  <!-- Ліва VBox панель з деталями клієнта -->
+  <rect x="0" y="82" width="436" height="234" fill="white"/>
+
+  <!-- Ім'я клієнта (заголовок) -->
+  <text x="14" y="112" font-size="16" font-weight="bold" fill="#222">Simms, Jane</text>
+
+  <!-- Роздільна лінія -->
+  <line x1="14" y1="122" x2="420" y2="122" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Рахунки клієнта (результат Show) -->
+  <text x="14" y="146" font-size="13" fill="#333">Рахунок #1  Тип: Savings  Баланс: $500.00</text>
+  <text x="14" y="168" font-size="13" fill="#333">Рахунок #2  Тип: Checking  Баланс: $200.00</text>
+
+  <!-- Нижня підказка -->
+  <text x="218" y="310" text-anchor="middle" font-size="10" fill="#aaa">Lab 5 — JavaFX Demo  |  Author: Maksym</text>
+</svg>
